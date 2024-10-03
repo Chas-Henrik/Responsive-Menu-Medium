@@ -4,10 +4,21 @@
     list-style: none;
 }
 
+:root {
+    --linear-gradient: linear-gradient(to right, #544B9E, #74B7D4);
+}
+
+body {
+    background: var(--linear-gradient);
+}
+
 /* Mobile */
 
 .flex-nav {
-    background-color: aqua;
+    background: rgba(4, 13, 141, 0.171);
+    border: 1px solid black;
+    margin: 20px 100px;
+    border-radius: 10px;
 }
 
 /* Flex container */
@@ -18,8 +29,8 @@
 }
 
 .flex-nav a {
+    color: white;
     text-decoration: none;
-    background-color: #ccc;
     padding: 0.5rem;
     font-size: 2rem;
     width: 100%;
